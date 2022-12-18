@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monsterdex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="monster_app grass">
+    <div class="monster_card">
+        <h1>Monsterdex</h1>
+        <img src="API/sprites/master/sprites/monster/1.png" alt="monster" class="monster_image">
+        <h1 class="monster_data">
+            <span class="monster_number">1</span>
+            <span class="monster_name"> monstersaur</span>
+        </h1>
+
+        <form class="form">
+            <input type="search" class="input-search" placeholder="Name or Number" required>
+        </form>
+        <div class="monster_chart">
+            <canvas id="my_chart"></canvas>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

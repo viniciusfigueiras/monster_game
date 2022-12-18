@@ -1,0 +1,127 @@
+body {
+	color: white;
+	margin: 0;
+	font-family: rubik;
+}
+
+h1 {
+	text-align: center;
+	font-size: 54px;
+}
+
+.monster_card {
+    height: 100vh;
+    width: 100wh;
+	list-style: none;
+	padding: 40px;
+	color: #222;
+	text-align: center;
+	border-radius: 20px;
+	position: relative;
+}
+
+.monster_data{
+    padding: 0;
+    margin: 0;
+}
+
+.monster_number {
+	font-size: (8px, 5vw, 32px);
+	font-weight: normal;
+	z-index: 2;
+}
+
+.monster_name {
+    text-transform: capitalize;
+    font-size: (8px, 5vw, 32px);
+	font-weight: lighter;
+	z-index: 2;
+}
+
+.monster_image {
+    min-height: 150px;
+	height: 25%;
+	z-index: 2;
+}
+
+.input-search {
+    min-width: 280px;
+    width: 20%;
+    margin: 1%;
+    padding: 1%;
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #3a444d;
+    text-align: center;
+    font-size: 100%;
+}
+
+.monster_chart{
+    margin: 0 auto;
+    min-width: 340px;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+.steel {
+	background-color: #f4f4f4;
+}
+
+.fire {
+	background-color: #FDDFDF;
+}
+
+.grass {
+	background-color: #DEFDE0;
+}
+
+.electric {
+	background-color: #FCF7DE;
+}
+
+.water, .ice {
+	background-color: #DEF3FD;
+}
+
+.ground {
+	background-color: #f4e7da;
+}
+
+.rock {
+	background-color: #d5d5d4;
+}
+
+.fairy {
+	background-color: #fceaff;
+}
+
+.poison {
+	background-color: #98d7a5;
+}
+
+.bug {
+	background-color: #f8d5a3;
+}
+
+.dragon {
+	background-color: #97b3e6;
+}
+
+.psychic {
+	background-color: #eaeda1;
+}
+
+.flying {
+	background-color: #F5F5F5;
+}
+
+.fighting {
+	background-color: #E6E0D4;
+}
+
+.normal {
+	background-color: #F5F5F5;
+}
